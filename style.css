@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient( #E0FFFF , #FFC0CB);
+}
+li{
+    list-style: none;
+}
+.container{
+    width: 80%;
+    border-radius: 20px;
+    height: 80%;
+    background-color: whitesmoke;
+    overflow: hidden;
+    box-shadow: 5px 5px 40px;
+}
+.container .navbar{
+    display: flex;
+    justify-content: space-around;
+    padding: 25px;
+    height: 10vh;
+    width: 100%;
+}
+.navbar .first,.last{
+    display: flex;
+}
+.first{
+    position: relative;
+    left: 50px;
+}
+.last{
+    position: relative;
+    left: -50px;
+}
+.first #home , .last #archive{
+    position: relative;
+    left: -50px;
+}
+.first #contact , .last #download{
+    position: relative;
+    left: 50px;
+}
+a:hover{
+    color: orange;
+}
+a{
+    text-decoration: none;
+    color: black; 
+    font-size: bold;
+}
+.container .archive-text{
+    position: relative;
+    left: 44%;
+    top: 5%;
+}
+.container .text{
+    position: relative;
+    left: 42%;
+    top: 6%;
+}
+.container .section{
+    height: 80%;
+    overflow: hidden;
+    width: 100%;
+    border-radius: 0px 0px 10px 10px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: 40px;
+    padding: 30px;
+    
+}
+.container .section .one,.two,.three {
+    background-color: white;
+    padding: 10px;
+    height: 68%;
+    width: 18.4%;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 5px 5px 30px gray;
+}
+.section .one #pic1{
+    height: 160px;
+    width: 215px;
+    position: relative;
+    right: 10px;
+    top: -10px;
+}
+.section .one h6{
+    color: brown;
+}
+.section .one H4{
+    font-weight: bold;
+    font-size: 10px;
+    padding-top: 5px;
+}
+.section .one #profile{
+    width: 15px;
+    height: 15px;
+    margin-top: 8px;
+}
+.section .one p{
+    position: relative;
+    top: 100px;
+}
+.section .two #pic2{
+    height: 160px;
+    width: 215px;
+    position: relative;
+    right: 10px;
+    top: -10px;
+}
+.section .three #pic3{
+    height: 160px;
+    width: 215px;
+    position: relative;
+    right: 10px;
+    top: -10px;
+}
+.section .two h6{
+    color: violet;
+}
+.section .two H4{
+    font-weight: bold;
+    font-size: 10px;
+    padding-top: 5px;
+}
+.section .two #profile{
+    width: 15px;
+    height: 15px;
+    margin-top: 8px;
+}
+.section .two p{
+    position: relative;
+    top: 100px;
+}
+.section .three h6{
+    color: violet;
+}
+.section .three H4{
+    font-weight: bold;
+    font-size: 10px;
+    padding-top: 5px;
+}
+.section .three p{
+    position: relative;
+    top: 100px;
+}
+.section .three #profile{
+    width: 18px;
+    height: 18px;
+    margin-top: 10px;
+    opacity: 100%;
+}
+
+.three h5{
+    opacity: 50%;
+    position: relative;
+    top: -20px;
+    margin-left: 5px;
+    left: 22px;
+}
+.section .two #profile{
+    width: 18px;
+    height: 18px;
+    margin-top: 10px;
+    opacity: 100%;
+}
+
+.two h5{
+    opacity: 50%;
+    position: relative;
+    top: -20px;
+    margin-left: 5px;
+    left: 22px;
+}
+.section .one #profile{
+    width: 18px;
+    height: 18px;
+    margin-top: 10px;
+    opacity: 100%;
+}
+
+.one h5{
+    opacity: 50%;
+    position: relative;
+    top: -20px;
+    margin-left: 5px;
+    left: 22px;
+}
